@@ -1,5 +1,4 @@
 from flask import Flask, render_template, url_for, send_file
-from waitress import serve
 
 app = Flask(__name__)
 
@@ -12,4 +11,4 @@ def home():
 
 
 if __name__ == "__main__":
-    serve(app, host='0.0.0.0', port=50100, debug=True)
+    app.run(debug=False)
