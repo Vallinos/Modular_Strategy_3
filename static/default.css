@@ -1,0 +1,108 @@
+html {
+   font-size: 20px;
+   font-family: "Arimo", regular;
+   font-weight: 700;
+   font-style: normal;
+   color: #1E88E5; /*blue*/
+   background-color: black;
+}
+
+body {
+   font-size: 20px;
+   width: 1450px;
+   margin: 80px auto;
+   background-color: #E6C5AE; /*tan*/
+   padding: 0px 20px 20px 20px;
+   border: 20px groove gray;
+}
+
+h1 {
+   color: #2D042C; /*dark violet*/
+   font-size: 60px;
+   text-align: center;
+}
+
+
+h2 {
+   color: #004D40; /*green*/
+   font-size: 50px;
+   text-align: center;
+}
+
+p {
+	text-indent: 50px;
+   font-size: 20px;
+   line-height: 2;
+   letter-spacing: 1px;
+}
+
+label {
+   font-weight: 700;
+}
+
+a {
+	color: #D81B42  /*red*/
+	
+}
+
+form {
+    text-align: center;
+}
+
+div {
+	text-indent: 50px;
+   font-size: 20px;
+   line-height: 2;
+   letter-spacing: 1px;
+}
+
+#vis {
+	text-indent: 50px;
+text-align: center;
+   font-size: 20px;
+   line-height: 2;
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-family: "Tinos", regular; 
+   font-weight: 600;
+   font-style: normal;
+	border: 5px solid black;
+background: white;
+
+}
+
+#transcript {
+	text-indent: 50px;
+text-align: center;
+   font-size: 20px;
+   line-height: 3;
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-family: "Tinos", regular; 
+   font-weight: 600;
+   font-style: normal;
+	border: 5px solid black;
+background: white;
+
+}
+
+#topBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 60px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #1E88E5; /*blue Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+

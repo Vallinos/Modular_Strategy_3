@@ -1,0 +1,48 @@
+html {
+   font-family: "Comic Neue", cursive;
+   font-weight: 300;
+   font-style: normal;
+   background-color: green;
+}
+
+body {
+   width: 900px;
+   margin: 80px auto;
+   background-color: #e6d3a1;
+   padding: 0px 20px 20px 20px;
+   border: 50px groove black;
+}
+
+h1 {
+   color: yellow;
+   font-size: 60px;
+   text-align: center;
+}
+
+
+h2 {
+   color: yellow;
+   font-size: 60px;
+   text-align: center;
+}
+
+p {
+   font-size: 20px;
+   line-height: 2;
+   letter-spacing: 1px;
+}
+
+label {
+   font-weight: 700;
+}
+
+a {
+	color: red
+	
+}
+
+form {
+    text-align: center;
+}
+
+
